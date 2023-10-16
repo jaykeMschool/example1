@@ -1,8 +1,13 @@
-# example1
-this is the first github repo example
-
-## subtitle
-description
-
-### 3rd level title
-descrintion
+<!DOCTYPE html>
+<html lang=“en”>
+<head>
+    <meta charset=“UTF-8” >
+    <meta name=“viewport” content=“width=device-width, initial-scale=1.0”>
+    <title>Page 1</title>
+    <link rel=“stylesheet” href-“styles/style.css”>
+</head»
+<body>
+<h1
+class-“red”›Page 1≤/h1>
+</body>
+</html>
