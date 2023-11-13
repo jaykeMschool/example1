@@ -19,7 +19,16 @@ body {
 
 
 .button {
+    background-color: #2f8c62;
+    color: #fff;
+    border: none;
+    border-radius: .25em;
+    padding: .5em .75em;
+}
 
+.button:hover{
+    background-color: #4fb286;
+    color: #fff;
 }
 
 .navbar {
@@ -31,4 +40,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.navbar-nav li {
+    padding: .5em;
+    margin: 0 0.5em;
 }
