@@ -1,0 +1,34 @@
+a {
+    color: #266;
+    text-decoration: none;
+}
+
+
+
+
+a:hover {
+    color: #4fb286;
+}
+
+body {
+    background-color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+}
+
+
+
+.button {
+
+}
+
+.navbar {
+    border-bottom: 1px solid #22333b;
+    padding: .5em;
+}
+
+.navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
