@@ -1,0 +1,15 @@
+:root {
+    --nav-ctrl-color: #000;
+    --nav-ctrl-size: 1.25em;
+    --nav-ctrl-inner-size: 1rem;
+}
+
+.nav-dot {
+    border-color: var(--nav-ctrl-color);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    height: var(--nav-ctrl-size);
+    display: flex;
+    width: var(--nav-ctrl-size);
+}
