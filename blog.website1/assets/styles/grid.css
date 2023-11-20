@@ -17,7 +17,7 @@
 }
 
 .container .row [class*="col"]{
-    background-color: gray;
+    background-color: aliceblue;
     margin: 0 0.5rem;
     padding: 0.5rem;
 }
