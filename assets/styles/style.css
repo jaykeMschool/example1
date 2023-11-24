@@ -4,12 +4,59 @@
     --nav-ctrl-inner-size: 1rem;
 }
 
+.banner-nav {
+    display: flex;
+    justify-content: center;
+}
+
 .nav-dot {
+    align-items: center;
     border-color: var(--nav-ctrl-color);
     border-style: solid;
     border-width: 1px;
-    border-radius: 5px;
+    border-radius: 100%;
     height: var(--nav-ctrl-size);
     display: flex;
+    justify-content: center;
+    margin: 0 .25rem;
     width: var(--nav-ctrl-size);
+}
+
+.nav-dot-inner {
+    height: var(--nav-ctrl-inner-size);
+    width: var(--nav-ctrl-inner-size);
+}
+
+.nav-dot-inner {
+    background-color: var(--nav-ctrl-color);
+    border-radius: 100%;
+    display: block;
+    height: 0;
+    opacity: 0;
+    transition: all .2s ease;
+    width: 0;
+}
+
+.nav-dot:hover .nav-dot-inner {
+    height: var(--nav-ctrl-inner-size);
+    opacity: .5;
+    width: var(--nav-ctrl-inner-size);
+}
+
+#bnr-1-ctrl:checked ~ .banner-nav #bnr-1-dot .nav-dot-inner{
+    height: var(--nav-ctrl-inner-size);
+    opacity: 1;
+    width: var(--nav-ctrl-inner-size);
+}
+
+#bnr-2-ctrl:checked ~ .banner-nav #bnr-1-dot .nav-dot-inner{
+    height: var(--nav-ctrl-inner-size);
+    opacity: 1;
+    width: var(--nav-ctrl-inner-size);
+}
+
+#bnr-3-ctrl:checked ~ .banner-nav #bnr-1-dot .nav-dot-inner{
+    height: var(--nav-ctrl-inner-size);
+    opacity: 1;
+    width: var(--nav-ctrl-inner-size);
 }
