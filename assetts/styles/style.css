@@ -4,9 +4,27 @@
     --nav-ctrl-inner-size: 1rem;
 }
 
+.banner-content {
+
+}
+
+.banner-item {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: none;
+    padding: 30%;
+}
+
+
 .banner-nav {
     display: flex;
     justify-content: center;
+    margin-top: 1rem;
+}
+
+.hidden {
+    display: none;
 }
 
 .nav-dot {
@@ -43,20 +61,16 @@
     width: var(--nav-ctrl-inner-size);
 }
 
-#bnr-1-ctrl:checked ~ .banner-nav #bnr-1-dot .nav-dot-inner{
-    height: var(--nav-ctrl-inner-size);
-    opacity: 1;
-    width: var(--nav-ctrl-inner-size);
-}
-
-#bnr-2-ctrl:checked ~ .banner-nav #bnr-1-dot .nav-dot-inner{
-    height: var(--nav-ctrl-inner-size);
-    opacity: 1;
-    width: var(--nav-ctrl-inner-size);
-}
-
+#bnr-1-ctrl:checked ~ .banner-nav #bnr-1-dot .nav-dot-inner,
+#bnr-2-ctrl:checked ~ .banner-nav #bnr-1-dot .nav-dot-inner,
 #bnr-3-ctrl:checked ~ .banner-nav #bnr-1-dot .nav-dot-inner{
     height: var(--nav-ctrl-inner-size);
     opacity: 1;
     width: var(--nav-ctrl-inner-size);
+}
+
+#bnr-1-ctrl:checked ~ .banner-content #banner-1,
+#bnr-2-ctrl:checked ~ .banner-content #banner-2,
+#bnr-3-ctrl:checked ~ .banner-content #banner-3 {
+    display: block;
 }

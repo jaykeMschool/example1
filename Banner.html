@@ -8,10 +8,20 @@
     <link rel="stylesheet" href="assetts/styles/style.css">
 </head>
 <body>
-    <input type="radio" name="bnr-nac-ctrl" id="bnr-1-ctrl" checked>
-    <input type="radio" name="bnr-nac-ctrl" id="bnr-2-ctrl">
-    <input type="radio" name="bnr-nac-ctrl" id="bnr-3-ctrl">
+    <!--radio buttons meant to control the banner-->
+    <input type="radio" name="bnr-nac-ctrl" class="hidden" id="bnr-1-ctrl" checked>
+    <input type="radio" name="bnr-nac-ctrl" class="hidden" id="bnr-2-ctrl">
+    <input type="radio" name="bnr-nac-ctrl" class="hidden" id="bnr-3-ctrl">
 
+
+    <!--banner images-->
+    <div class="banner-content">
+        <div class="banner-item" id="banner-1" style="background-image: url(assetts/images/IMG_0895.JPG);"></div>
+        <div class="banner-item" id="banner-2" style="background-image: url(assetts/images/IMG_1175.JPG);"></div>
+        <div class="banner-item" id="banner-3" style="background-image: url(assetts/images/IMG_1529.JPG);"></div>
+    </div>
+
+    <!--controls changing the banner-->
     <div class="banner-nav">
 
         <label for="bnr-1-ctrl" id="bnr-1-dot" class="nav-dot">
