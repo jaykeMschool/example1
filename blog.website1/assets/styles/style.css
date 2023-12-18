@@ -77,6 +77,7 @@ footer{
     display: flex;
     list-style: none;
     padding: 0;
+    justify-content: space-between;
 }
 .navbar-nav li {
     padding: .5em;
